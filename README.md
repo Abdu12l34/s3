@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Responsive Watches Website ⌚
 ## [Watch it on youtube](https://youtu.be/QPxYdbbCjhQ)
 ### Responsive Watches Website ⌚
@@ -11,3 +12,6 @@
 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/c/Bedimcode)
 
 ![preview img](/preview.png)
+=======
+# s3
+>>>>>>> 23980f8996538be257abc6aeeb5a10bdbd446c20
