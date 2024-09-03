@@ -29,7 +29,16 @@
    
 # Copy code
 ![image](https://github.com/user-attachments/assets/5d862170-5e3d-404c-8989-296c088ad02b)
- - Save the policy.   
+ - Save the policy.
+   
+# Step 2: Push Your Static Website to GitHub
+Initialize a Git Repository:
+
+In your local project directory, run these command.
+ - git init
+ - git add .
+ - git commit -m "type commit message"
+
 
 
 # Responsive Watches Website ⌚
