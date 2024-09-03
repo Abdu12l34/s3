@@ -6,15 +6,15 @@
 
 # Deploy static website to S3 using Github action
 ## There are some steps are follow for this application.
-- Step 1: Create an S3 Bucket
+# Step 1: Create an S3 Bucket
 Sign in to AWS Management Console and open the S3 service.
 
 Create a new S3 bucket:
 
 Click on "Create bucket".
-      - Enter a unique bucket name (e.g., my-static-website).
-      - Choose the region closest to your audience.
-      - Uncheck "Block all public access" to allow public access to the bucket.
+- Enter a unique bucket name (e.g., my-static-website).
+- Choose the region closest to your audience.
+- Uncheck "Block all public access" to allow public access to the bucket.
       - Acknowledge the warning and proceed.
 
 
