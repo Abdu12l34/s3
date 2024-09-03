@@ -6,7 +6,7 @@
 
 # Deploy static website to S3 using Github action
 ## There are some steps are follow for this application.
-Step 1: Create an S3 Bucket
+- Step 1: Create an S3 Bucket
 Sign in to AWS Management Console and open the S3 service.
 
 Create a new S3 bucket:
