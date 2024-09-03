@@ -4,7 +4,7 @@
 
 ![image](https://github.com/user-attachments/assets/664d2dc9-506b-441c-bf24-a77fa55d6c92)
 
-Deploy static website to S3 using Github actions
+https://dev.to/johnkevinlosito/deploy-static-website-to-s3-using-github-actions-4a0e#:~:text=Deploy%20static%20website%20to%20S3%20using%20Github%20actions
 
 
 
