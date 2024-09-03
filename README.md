@@ -12,10 +12,10 @@ Sign in to AWS Management Console and open the S3 service.
 Create a new S3 bucket:
 
 Click on "Create bucket".
-      ---> Enter a unique bucket name (e.g., my-static-website).
-      ---> Choose the region closest to your audience.
-      ---> Uncheck "Block all public access" to allow public access to the bucket.
-      ---> Acknowledge the warning and proceed.
+      - Enter a unique bucket name (e.g., my-static-website).
+      - Choose the region closest to your audience.
+      - Uncheck "Block all public access" to allow public access to the bucket.
+      - Acknowledge the warning and proceed.
 
 
 # Responsive Watches Website ⌚
