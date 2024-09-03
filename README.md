@@ -79,7 +79,8 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         AWS_REGION: 'us-east-1'
         SOURCE_DIR: 'website'
-- this code paste in deploy.yml file       
+- this code paste in deploy.yml file
+- Replace your-region with your AWS region (e.g., ap-shout-1), and "your-bucket-name" with your S3 bucket name.     
          
 
 
