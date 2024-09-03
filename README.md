@@ -25,21 +25,10 @@
 5. Set Bucket Policy to Make Content Public:
 
  - Go to the Permissions tab, then scroll to the "Bucket policy" section.
- - Add a bucket policy to allow public read access to the contents. "Replace your-bucket-name" with your "actual bucket name:"
+ - edit a bucket policy to allow public read access to the contents. "Replace your-bucket-name" with your "actual bucket name:"
    
 # Copy code
-
-{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Effect": "Allow",
-    "Principal": "*",
-      "Action": "s3:GetObject",
-      "Resource": "arn:aws:s3:::your-bucket-name/*"
-    }
-  ]
-}
+![image](https://github.com/user-attachments/assets/5d862170-5e3d-404c-8989-296c088ad02b)
  - Save the policy.   
 
 
