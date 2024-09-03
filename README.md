@@ -55,10 +55,12 @@ Push your local repository to GitHub, using these command,
      - Inside it, create a file named deploy.yml with the following content:
        
 name: Deploy to S3
+
 on:
   push:
     branches:
-     - main
+      - main
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
