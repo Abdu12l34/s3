@@ -4,6 +4,8 @@
 
 ![image](https://github.com/user-attachments/assets/664d2dc9-506b-441c-bf24-a77fa55d6c92)
 
+Deploy static website to S3 using Github actions
+
 
 # Responsive Watches Website ⌚
 ## [Watch it on youtube](https://youtu.be/QPxYdbbCjhQ)
