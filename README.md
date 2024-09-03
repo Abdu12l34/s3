@@ -53,15 +53,12 @@ Push your local repository to GitHub, using these command,
      - In your project, create a directory named .github/workflows.
 
      - Inside it, create a file named deploy.yml with the following content:
-     - yml code is:
        
 name: Deploy to S3
-
 on:
   push:
     branches:
       - main
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -80,6 +77,7 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         AWS_REGION: 'us-east-1'
         SOURCE_DIR: 'website'
+- this code paste in deploy.yml file       
          
 
 
