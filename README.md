@@ -80,20 +80,24 @@ jobs:
         AWS_REGION: 'us-east-1'
         SOURCE_DIR: 'website'
 - this code paste in deploy.yml file
-- Replace your-region with your AWS region (e.g., ap-shout-1), and "your-bucket-name" with your S3 bucket name.     
-         
+- Replace your-region with your AWS region (e.g., ap-shout-1), and "your-bucket-name" with your S3 bucket name.
+   
+ 2. Add AWS Credentials to GitHub Secrets:
 
+ - Go to your GitHub repository, click on "Settings," then "Secrets and variables," and finally "Actions."
+ - Click on "New repository secret" and add AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY with your AWS IAM user credentials that have S3 access.        
 
+# Step 4: Push Changes to GitHub
+Commit and push your workflow file to the main branch:
+
+ - git add .
+ - git commit -m "Add GitHub Actions workflow for S3 deployment"
+ - git push origin main
+   
+# Step 5: Access Your Static Website
+ - After pushing, GitHub Actions will automatically deploy your site to S3. You can access your static website via the S3 bucket URL (e.g., http://your-bucket-name.s3-website.your-region.amazonaws.com).
 
 # Responsive Watches Website ⌚
-## [Watch it on youtube](https://youtu.be/QPxYdbbCjhQ)
-### Responsive Watches Website ⌚
-
-- Responsive Watches Website Using HTML CSS & JavaScript
-- Smooth scrolling in each section.
-- Includes a dark and light mode.
-- Developed first with the Mobile First methodology, then for desktop.
-- Compatible with all mobile devices and with a beautiful and pleasant user interface.
 
 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/c/Bedimcode)
 
