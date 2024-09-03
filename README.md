@@ -58,7 +58,7 @@ name: Deploy to S3
 on:
   push:
     branches:
-      - main
+     - main
 jobs:
   deploy:
     runs-on: ubuntu-latest
