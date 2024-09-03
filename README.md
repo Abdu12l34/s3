@@ -32,12 +32,54 @@
  - Save the policy.
    
 # Step 2: Push Your Static Website to GitHub
-Initialize a Git Repository:
+1. Initialize a Git Repository:
 
 In your local project directory, run these command.
  - git init
  - git add .
  - git commit -m "type commit message"
+
+2. Create a GitHub Repository:
+
+Go to GitHub and create a new repository (e.g., my-static-website).
+Push your local repository to GitHub, using these command,
+  - git remote add origin https://github.com/Abdu12l34/my-static-website.git
+  - git branch -M main
+  - git push -u origin main
+
+# Step 3: Automate Deployment with GitHub Actions
+  1. Create a GitHub Actions Workflow:
+
+     - In your project, create a directory named .github/workflows.
+
+     - Inside it, create a file named deploy.yml with the following content:
+     - yml code is:
+name: Deploy to S3
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Sync S3 bucket
+      uses: jakejarvis/s3-sync-action@v1
+      with:
+        args: --delete --acl public-read
+      env:
+        AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_REGION: 'us-east-1'
+        SOURCE_DIR: 'website'
+         
 
 
 
